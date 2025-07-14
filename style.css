@@ -18,6 +18,10 @@ header {
     color: #fff;
 }
 
+section {
+    padding: 28px 6%;
+}
+
 #navbar {
     width: 100%;
     display: flex;
@@ -33,4 +37,26 @@ header {
 .nav-item a {
     text-decoration: none;
     color: #fff;
+}
+
+#home {
+    display: flex;
+    min-height: calc(100vh - 76px);
+}
+
+#about {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+#about .title {
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+#about .description {
+    font-size: 1.5rem;
 }
